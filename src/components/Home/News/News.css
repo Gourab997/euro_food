@@ -1,0 +1,19 @@
+.lending-information {
+  position: relative;
+  height: 33px;
+  /* line-height: 30px; */
+  background-color: #ca6254;
+}
+.lending-information-title {
+  z-index: 9999;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  padding: 4px 34px;
+  position: absolute;
+  background-color: #07a072;
+}
+.lending-marquee {
+  font-size: 19px;
+  line-height: 32px;
+  margin: 0 auto;
+  display: block;
+}
