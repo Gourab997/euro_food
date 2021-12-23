@@ -1,4 +1,6 @@
 import React from "react";
+import Contactus from "../../Contactus/Contactus";
+import FrozenFinger from "../../Products/FrozenFoods/FrozenFinger/FrozenFinger";
 import News from "../News/News";
 import Parallex from "../Parallex/Parallex";
 import Products from "../Products/Products";
@@ -13,6 +15,7 @@ const Home = () => {
       <Products></Products>
       <Parallex></Parallex>
       <Quality></Quality>
+      <Contactus></Contactus>
     </div>
   );
 };

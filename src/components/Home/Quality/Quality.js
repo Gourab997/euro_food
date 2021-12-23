@@ -13,10 +13,10 @@ const Quality = () => {
     <div>
       <OwlCarousel
         className='owl-theme'
-        items={3}
+        items={5}
         autoplay={true}
         autoplayTimeout={2000}
-        margin={20}
+        margin={50}
         dots
         nav
         loop

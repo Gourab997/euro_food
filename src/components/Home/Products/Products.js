@@ -5,6 +5,7 @@ import vegetables from "../../../images/Frozen_vegetables/cover_vegetables.png";
 import waterfish from "../../../images/fresh_water_fish/cover_fresh_water_fish.png";
 import seafood from "../../../images/frozen_seafood/cover_seafood.png";
 import garments from "../../../images/garments/cover.jpg";
+import { Link } from "react-router-dom";
 const Products = () => {
   const [toggleState, setToggleState] = useState(1);
 
@@ -58,7 +59,9 @@ const Products = () => {
                       Frozen Paratha (various types), Roti, Frozen Snacks (Flour
                       made like singhara, puri, Samosa)
                     </p>
-                    <button className='btn btn-info'>See more</button>
+                    <Link to='/frozenfinger'>
+                      <button className='btn btn-info'>See more</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -71,7 +74,9 @@ const Products = () => {
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
                       Olive, Black berry, Chalta etc),
                     </p>
-                    <button className='btn btn-info'>See more</button>
+                    <Link to='/frozenvegetables'>
+                      <button className='btn btn-info'>See more</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -95,7 +100,9 @@ const Products = () => {
                       Frozen Fresh Water Fish (Block Fish, Clean & gutted, Whole
                       Fish)
                     </p>
-                    <button className='btn btn-info'>See more</button>
+                    <Link to='/waterfish'>
+                      <button className='btn btn-info'>See more</button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -105,7 +112,10 @@ const Products = () => {
                   <div class='card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
-                    <button className='btn btn-info'>See more</button>
+
+                    <Link to='/seafood'>
+                      <button className='btn btn-info'>See more</button>
+                    </Link>
                   </div>
                 </div>
               </div>
