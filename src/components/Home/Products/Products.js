@@ -50,34 +50,42 @@ const Products = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={Snacks} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={Snacks}
+                    class='card-img-top product-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Finger</h5>
                     <p class='card-text'>
                       Ready to cook frozen foods for daily consumption like
                       Frozen Paratha (various types), Roti, Frozen Snacks (Flour
                       made like singhara, puri, Samosa)
                     </p>
-                    <Link to='/frozenfinger'>
-                      <button className='btn btn-info'>See more</button>
-                    </Link>
                   </div>
+                  <Link to='/frozenfinger'>
+                    <button className='btn btn-success my-2'>See more</button>
+                  </Link>
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={vegetables} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={vegetables}
+                    class='card-img-top product-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
                       Olive, Black berry, Chalta etc),
                     </p>
-                    <Link to='/frozenvegetables'>
-                      <button className='btn btn-info'>See more</button>
-                    </Link>
                   </div>
+                  <Link to='/frozenvegetables'>
+                    <button className='btn btn-success my-2'>See more</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -92,31 +100,38 @@ const Products = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={waterfish} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={waterfish}
+                    class='card-img-top product-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Fresh Water Fish</h5>
                     <p class='card-text'>
                       Frozen Fresh Water Fish (Block Fish, Clean & gutted, Whole
                       Fish)
                     </p>
-                    <Link to='/waterfish'>
-                      <button className='btn btn-info'>See more</button>
-                    </Link>
                   </div>
+                  <Link to='/waterfish'>
+                    <button className='btn btn-success my-2'>See more</button>
+                  </Link>
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={seafood} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={seafood}
+                    class='card-img-top product-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
-
-                    <Link to='/seafood'>
-                      <button className='btn btn-info'>See more</button>
-                    </Link>
                   </div>
+                  <Link to='/seafood'>
+                    <button className='btn btn-success my-2'>See more</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,9 +146,13 @@ const Products = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={garments} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={garments}
+                    class='card-img-top product-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Readymade garments</h5>
                     <p class='card-text'>
                       Readymade garments which include: hoodie, trouser, cloth

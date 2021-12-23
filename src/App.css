@@ -3,8 +3,20 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: #faeeea;
+}
 .App {
   text-align: center;
+}
+.loader {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .App-logo {

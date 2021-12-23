@@ -10,13 +10,14 @@ import rosemco from "../../../images/logo/Rosemco-LOGO.png";
 import "./Quality.css";
 const Quality = () => {
   return (
-    <div>
+    <div className='py-5'>
+      <h1 className='my-3'>Collaboration</h1>
       <OwlCarousel
         className='owl-theme'
         items={5}
         autoplay={true}
         autoplayTimeout={2000}
-        margin={50}
+        margin={60}
         dots
         nav
         loop

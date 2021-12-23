@@ -5,7 +5,10 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <nav className='navbar  navbar-expand-lg navbar-light bg-light  '>
+      <nav
+        className='navbar  navbar-expand-lg navbar-light  '
+        style={{ backgroundColor: "#B9DC8E" }}
+      >
         <div className='container-fluid '>
           <Link className='navbar-brand' href='#'>
             <img src={logo} className='nav-logo' alt='' />
@@ -26,52 +29,29 @@ const Header = () => {
             id='navbarNavDropdown'
           >
             <ul className='navbar-nav'>
-              <li className='nav-item'>
-                <Link className='nav-link active' aria-current='page' href='#'>
+              <li className='nav-item '>
+                <Link
+                  className='nav-link active text-white'
+                  aria-current='page'
+                  href='#'
+                >
                   Home
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' href='#'>
-                  Features
+                <Link className='nav-link text-white' href='#'>
+                  About
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' href='#'>
-                  Pricing
+                <Link className='nav-link text-white' href='#'>
+                  Product
                 </Link>
               </li>
-              <li className='nav-item dropdown'>
-                <Link
-                  className='nav-link dropdown-toggle'
-                  href='#'
-                  id='navbarDropdownMenuLink'
-                  role='button'
-                  data-bs-toggle='dropdown'
-                  aria-expanded='false'
-                >
-                  Dropdown link
+              <li className='nav-item '>
+                <Link className='nav-link text-white' href='#'>
+                  Contact
                 </Link>
-                <ul
-                  className='dropdown-menu'
-                  aria-labelledby='navbarDropdownMenuLink'
-                >
-                  <li>
-                    <a className='dropdown-item' href='#'>
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className='dropdown-item' href='#'>
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className='dropdown-item' href='#'>
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </div>

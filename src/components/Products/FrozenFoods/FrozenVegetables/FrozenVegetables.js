@@ -48,9 +48,13 @@ const FrozenVegetables = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={kachurlati} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={kachurlati}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Finger</h5>
                     <p class='card-text'>
                       Ready to cook frozen foods for daily consumption like
@@ -62,9 +66,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={kakrol} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={kakrol}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -75,9 +83,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={okra} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={okra}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -88,9 +100,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={nalleshaak} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={nalleshaak}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -101,9 +117,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={lalshak} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={lalshak}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -114,9 +134,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={sanjnedata} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={sanjnedata}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -138,9 +162,13 @@ const FrozenVegetables = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={blackburry} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={blackburry}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Fresh Water Fish</h5>
                     <p class='card-text'>
                       Frozen Fresh Water Fish (Block Fish, Clean & gutted, Whole
@@ -151,9 +179,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={chalta} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={chalta}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>
@@ -161,9 +193,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={coconut} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={coconut}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>
@@ -171,9 +207,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={koromcha} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={koromcha}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>
@@ -181,9 +221,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={olive} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={olive}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>
@@ -191,9 +235,13 @@ const FrozenVegetables = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={saas} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={saas}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>

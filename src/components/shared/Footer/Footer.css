@@ -3,7 +3,7 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background-image: linear-gradient(to bottom right, #3f6088, #2f4858);
   position: relative;
 }
 .footer-cta {
@@ -118,8 +118,8 @@ ul {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2e2e2e;
-  border: 1px solid #2e2e2e;
+  background: #2f4858;
+  border: 1px solid #2f4858;
   color: #fff;
 }
 .subscribe-form button {
@@ -136,7 +136,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area {
-  background: #202020;
+  background: #2f4858;
   padding: 25px 0;
 }
 .copyright-text p {

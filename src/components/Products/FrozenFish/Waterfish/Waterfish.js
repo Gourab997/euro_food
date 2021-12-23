@@ -51,9 +51,13 @@ const Waterfish = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={ayer} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={ayer}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Finger</h5>
                     <p class='card-text'>
                       Ready to cook frozen foods for daily consumption like
@@ -65,9 +69,13 @@ const Waterfish = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={pangush} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={pangush}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -78,9 +86,13 @@ const Waterfish = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={ruhu} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={ruhu}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen vegetables</h5>
                     <p class='card-text'>
                       Frozen vegetables (Root & Leafy), Frozen fruits (Seasonal:
@@ -102,9 +114,13 @@ const Waterfish = () => {
             <hr />
             <div class='row row-cols-1 row-cols-md-2 g-4'>
               <div class='col'>
-                <div class='card'>
-                  <img src={foly} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={foly}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Fresh Water Fish</h5>
                     <p class='card-text'>
                       Frozen Fresh Water Fish (Block Fish, Clean & gutted, Whole
@@ -115,9 +131,13 @@ const Waterfish = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={loita} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={loita}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>
@@ -125,9 +145,13 @@ const Waterfish = () => {
                 </div>
               </div>
               <div class='col'>
-                <div class='card'>
-                  <img src={pabda} class='card-img-top' alt='...' />
-                  <div class='card-body'>
+                <div class='card product-card'>
+                  <img
+                    src={pabda}
+                    class='card-img-top products-image'
+                    alt='...'
+                  />
+                  <div class='card-body product-card-body'>
                     <h5 class='card-title'>Frozen Sea fish</h5>
                     <p class='card-text'>Frozen Prawn, Shrimps</p>
                     <button className='btn btn-info'>See more</button>
@@ -145,9 +169,13 @@ const Waterfish = () => {
           <hr />
           <div class='row row-cols-1 row-cols-md-2 g-4'>
             <div class='col'>
-              <div class='card'>
-                <img src={batashi} class='card-img-top' alt='...' />
-                <div class='card-body'>
+              <div class='card product-card'>
+                <img
+                  src={batashi}
+                  class='card-img-top products-image'
+                  alt='...'
+                />
+                <div class='card-body product-card-body'>
                   <h5 class='card-title'>Fresh Water Fish</h5>
                   <p class='card-text'>
                     Frozen Fresh Water Fish (Block Fish, Clean & gutted, Whole
@@ -158,9 +186,13 @@ const Waterfish = () => {
               </div>
             </div>
             <div class='col'>
-              <div class='card'>
-                <img src={chapila} class='card-img-top' alt='...' />
-                <div class='card-body'>
+              <div class='card product-card'>
+                <img
+                  src={chapila}
+                  class='card-img-top products-image'
+                  alt='...'
+                />
+                <div class='card-body product-card-body'>
                   <h5 class='card-title'>Frozen Sea fish</h5>
                   <p class='card-text'>Frozen Prawn, Shrimps</p>
                   <button className='btn btn-info'>See more</button>
@@ -168,9 +200,9 @@ const Waterfish = () => {
               </div>
             </div>
             <div class='col'>
-              <div class='card'>
-                <img src={puti} class='card-img-top' alt='...' />
-                <div class='card-body'>
+              <div class='card product-card'>
+                <img src={puti} class='card-img-top products-image' alt='...' />
+                <div class='card-body product-card-body'>
                   <h5 class='card-title'>Frozen Sea fish</h5>
                   <p class='card-text'>Frozen Prawn, Shrimps</p>
                   <button className='btn btn-info'>See more</button>

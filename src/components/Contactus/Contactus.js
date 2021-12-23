@@ -17,24 +17,34 @@ const Contactus = () => {
 
   return (
     <div>
-      <div class='container my-3'>
+      <div class='container my-5 '>
         <div class='wrapper'>
           <div class='company-info'>
-            <h3>Euro Food Bangladesh</h3>
+            <h3 className='text-danger'>
+              Euro Food <span className='text-success'>Bangladesh </span>{" "}
+            </h3>
 
             <ul>
-              <li>
-                <i class='fa fa-road'></i> 7th Floor (Navana Oval, Plot - 5)
-                Sonargaon Janapath, Dhaka 1230
+              <li className='my-2'>
+                <i
+                  class='fas fa-map-marker-alt pe-2'
+                  style={{ color: "#804F6B" }}
+                ></i>{" "}
+                7th Floor (Navana Oval, Plot - 5) Sonargaon Janapath, Dhaka 1230
               </li>
-              <li>
-                <i class='fas fa-mobile-alt'></i> 01715-770840
+              <li className='my-2'>
+                <i
+                  class='fas fa-mobile-alt pe-2'
+                  style={{ color: "#00C6BD" }}
+                ></i>{" "}
+                01715-770840
               </li>
-              <li>
-                <i class='fa fa-envelope'></i> info@eurofoods-bd.com
+              <li className='my-2'>
+                <i class='fa fa-envelope pe-2' style={{ color: "#4191F9" }}></i>{" "}
+                info@eurofoods-bd.com
               </li>
             </ul>
-            <div id='map' className='map_show'></div>
+            <div id='map' className='map_show my-4 p-4'></div>
           </div>
 
           <div class='contact'>

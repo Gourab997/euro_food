@@ -54,7 +54,9 @@ const TopBanner = () => {
           floor,
         </h6>
         <div>
-          <h6>Our Certification</h6>
+          <h4 className='py-2 ' style={{ color: "#ad652b" }}>
+            Our Certification
+          </h4>
 
           <div className='certification'>
             <div>
