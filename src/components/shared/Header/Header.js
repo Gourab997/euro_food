@@ -10,7 +10,7 @@ const Header = () => {
         style={{ backgroundColor: "#B9DC8E" }}
       >
         <div className='container-fluid '>
-          <Link className='navbar-brand' href='#'>
+          <Link className='navbar-brand' to='/'>
             <img src={logo} className='nav-logo' alt='' />
           </Link>
           <button
@@ -29,26 +29,26 @@ const Header = () => {
             id='navbarNavDropdown'
           >
             <ul className='navbar-nav'>
-              <li className='nav-item '>
+              <li className='nav-item mx-1'>
                 <Link
-                  className='nav-link active text-white'
+                  className='nav-link active text-white fs-bold'
                   aria-current='page'
-                  href='#'
+                  to='/'
                 >
                   Home
                 </Link>
               </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-white' href='#'>
+              <li className='nav-item mx-1'>
+                <Link className='nav-link text-white' to='/about'>
                   About
                 </Link>
               </li>
-              <li className='nav-item'>
+              <li className='nav-item mx-1'>
                 <Link className='nav-link text-white' href='#'>
                   Product
                 </Link>
               </li>
-              <li className='nav-item '>
+              <li className='nav-item mx-1'>
                 <Link className='nav-link text-white' href='#'>
                   Contact
                 </Link>

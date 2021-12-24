@@ -1,22 +1,47 @@
 import React, { useState } from "react";
-import bfhlso from "../../../../images/frozen_seafood/freshshrimps/bfhlso.png";
-import cattiger from "../../../../images/frozen_seafood/freshshrimps/cattiger.png";
-import chaka from "../../../../images/frozen_seafood/freshshrimps/chaka.png";
-import kingprawn from "../../../../images/frozen_seafood/freshshrimps/Kingprawn.png";
+import bfhlso from "../../../../images/frozen_seafood/freshshrimps/bfhlso-removebg-preview.png";
+import cattiger from "../../../../images/frozen_seafood/freshshrimps/cattiger-removebg-preview.png";
+import chaka from "../../../../images/frozen_seafood/freshshrimps/chaka-removebg-preview.png";
+import kingprawn from "../../../../images/frozen_seafood/freshshrimps/Kingprawn-removebg-preview.png";
 
-import butterfly from "../../../../images/frozen_seafood/frozen/butterfly.png";
-import filo from "../../../../images/frozen_seafood/frozen/filo.png";
-import shimproll from "../../../../images/frozen_seafood/frozen/shimproll.png";
-import torpedo from "../../../../images/frozen_seafood/frozen/torpedo.png";
+import butterfly from "../../../../images/frozen_seafood/frozen/butterfly-removebg-preview.png";
+import filo from "../../../../images/frozen_seafood/frozen/filo-removebg-preview.png";
+import shimproll from "../../../../images/frozen_seafood/frozen/shimproll-removebg-preview.png";
+import torpedo from "../../../../images/frozen_seafood/frozen/torpedo-removebg-preview.png";
 import "./Seafood.css";
+import cover from "../../../../images/frozen_seafood/cover.jpg";
+import { Parallax } from "react-parallax";
+
 const Seafood = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
+  const inlineStyle = {
+    left: "50%",
+    top: "50%",
+    objectFit: "cover",
+    position: "absolute",
+    padding: "20px",
+    transform: "translate(-50% ,-50%)",
+  };
   return (
     <div>
+      <Parallax bgImage={cover} y={[-30, 20]} blur={{ min: -1, max: 4 }}>
+        <div style={{ height: 500 }}>
+          <div style={inlineStyle}>
+            <h1 className='' style={{ color: "#FF800B", fontWeight: "900" }}>
+              Serving quality <span> fresh and frozen Seafood </span>
+            </h1>
+            <p className='' style={{ color: "#005247", fontWeight: "600" }}>
+              Euro Foods Group is a leading international manufacturer and
+              distributor of frozen and fresh foods, serving the restaurant,
+              catering and specialist supermarket sectors.
+            </p>
+          </div>
+        </div>
+      </Parallax>
       <div className='container py-3'>
         <div className='bloc-tabs'>
           <button

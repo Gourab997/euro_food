@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import footer from "../../../images/footer.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -16,14 +17,29 @@ const Footer = () => {
 
                   <div class='footer-social-icon'>
                     <span>Follow us</span>
-                    <a href='#'>
+                    <a
+                      target='_blank'
+                      href='https://www.facebook.com/eurofoodsgroup'
+                    >
                       <i class='fab fa-facebook-f facebook-bg'></i>
                     </a>
-                    <a href='#'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/eurofoodsgroup'
+                    >
                       <i class='fab fa-twitter twitter-bg'></i>
                     </a>
-                    <a href='#'>
-                      <i class='fab fa-google-plus-g google-bg'></i>
+                    <a
+                      target='_blank'
+                      href='https://www.linkedin.com/company/eurofoods/'
+                    >
+                      <i class='fab fa-linkedin-in linkedin-bg'></i>
+                    </a>
+                    <a
+                      target='_blank'
+                      href='https://www.youtube.com/channel/UCWmbqmPt6a6fhlsyXeEvodQ'
+                    >
+                      <i class='fab fa-youtube youtube-bg'></i>
                     </a>
                   </div>
                 </div>
@@ -34,7 +50,7 @@ const Footer = () => {
                   <div class='footer-widget-heading'>
                     <h3>Subscribe</h3>
                   </div>
-                  <div class='footer-text mb-25'>
+                  <div class=' mb-25 text-white'>
                     <p>
                       Dont miss to subscribe to our new feeds, kindly fill the
                       form below.
@@ -68,14 +84,9 @@ const Footer = () => {
                       <a href='#'>Home</a>
                     </li>
                     <li>
-                      <a href='#'>Terms</a>
+                      <a href='#'>About</a>
                     </li>
-                    <li>
-                      <a href='#'>Privacy</a>
-                    </li>
-                    <li>
-                      <a href='#'>Policy</a>
-                    </li>
+
                     <li>
                       <a href='#'>Contact</a>
                     </li>

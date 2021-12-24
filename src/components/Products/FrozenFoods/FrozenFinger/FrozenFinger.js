@@ -1,24 +1,49 @@
 import React, { useState } from "react";
-import alu from "../../../../images/Frozen_finger/parata/alu.png";
-import bakarkhani from "../../../../images/Frozen_finger/parata/bakarkhani.png";
-import chapti from "../../../../images/Frozen_finger/parata/chapati.png";
-import dalparathe from "../../../../images/Frozen_finger/parata/dalparatha.png";
-import riceflour from "../../../../images/Frozen_finger/parata/riceflour.png";
-import mealroti from "../../../../images/Frozen_finger/parata/wholemealroti.png";
-import alupuri from "../../../../images/Frozen_finger/snacks/alopuri.png";
-import bhapapitha from "../../../../images/Frozen_finger/snacks/Bhapapitha.png";
-import somosa from "../../../../images/Frozen_finger/snacks/bulkdalsomosa.png";
-import peaju from "../../../../images/Frozen_finger/snacks/paeju.png";
-import roll from "../../../../images/Frozen_finger/snacks/roll.png";
-import singara from "../../../../images/Frozen_finger/snacks/singara.png";
+import { Parallax } from "react-parallax";
+import alu from "../../../../images/Frozen_finger/parata/alu-removebg-preview.png";
+import bakarkhani from "../../../../images/Frozen_finger/parata/bakarkhani-removebg-preview.png";
+import chapti from "../../../../images/Frozen_finger/parata/chapati-removebg-preview.png";
+import dalparathe from "../../../../images/Frozen_finger/parata/dalparatha-removebg-preview.png";
+import riceflour from "../../../../images/Frozen_finger/parata/riceflour-removebg-preview.png";
+import mealroti from "../../../../images/Frozen_finger/parata/wholemealroti-removebg-preview.png";
+import alupuri from "../../../../images/Frozen_finger/snacks/alopuri-removebg-preview.png";
+import bhapapitha from "../../../../images/Frozen_finger/snacks/Bhapapitha-removebg-preview.png";
+import somosa from "../../../../images/Frozen_finger/snacks/bulkdalsomosa-removebg-preview.png";
+import peaju from "../../../../images/Frozen_finger/snacks/paeju-removebg-preview.png";
+import roll from "../../../../images/Frozen_finger/snacks/roll-removebg-preview.png";
+import singara from "../../../../images/Frozen_finger/snacks/singara-removebg-preview.png";
+import cover from "../../../../images/Frozen_finger/cover2.jpg";
+
 const FrozenFinger = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
+  const inlineStyle = {
+    left: "50%",
+    top: "50%",
+    objectFit: "cover",
+    position: "absolute",
+    padding: "20px",
+    transform: "translate(-50% ,-50%)",
+  };
   return (
     <div>
+      <Parallax bgImage={cover} y={[-30, 20]} blur={{ min: -1, max: 4 }}>
+        <div style={{ height: 500 }}>
+          <div style={inlineStyle}>
+            <h1 className='' style={{ color: "#F3F100", fontWeight: "900" }}>
+              Serving quality <span> fresh and frozen Finger </span>
+            </h1>
+            <p className='' style={{ color: "#00D7B5", fontWeight: "600" }}>
+              Euro Foods Group is a leading international manufacturer and
+              distributor of frozen and fresh foods, serving the restaurant,
+              catering and specialist supermarket sectors.
+            </p>
+          </div>
+        </div>
+      </Parallax>
       <div className='container py-3'>
         <div className='bloc-tabs'>
           <button

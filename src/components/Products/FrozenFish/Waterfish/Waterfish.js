@@ -1,21 +1,46 @@
 import React, { useState } from "react";
-import ayer from "../../../../images/fresh_water_fish/large/Ayer.png";
-import pangush from "../../../../images/fresh_water_fish/large/pangush.png";
-import ruhu from "../../../../images/fresh_water_fish/large/ruhu.png";
-import foly from "../../../../images/fresh_water_fish/medium/foly.png";
-import loita from "../../../../images/fresh_water_fish/medium/loita.png";
-import pabda from "../../../../images/fresh_water_fish/medium/pabda.png";
-import batashi from "../../../../images/fresh_water_fish/small/batashi.png";
-import chapila from "../../../../images/fresh_water_fish/small/chapila.png";
-import puti from "../../../../images/fresh_water_fish/small/puti.png";
+import { Parallax } from "react-parallax";
+import ayer from "../../../../images/fresh_water_fish/large/Ayer-removebg-preview.png";
+import pangush from "../../../../images/fresh_water_fish/large/pangush-removebg-preview.png";
+import ruhu from "../../../../images/fresh_water_fish/large/ruhu-removebg-preview.png";
+import foly from "../../../../images/fresh_water_fish/medium/foly-removebg-preview.png";
+import loita from "../../../../images/fresh_water_fish/medium/loita-removebg-preview.png";
+import pabda from "../../../../images/fresh_water_fish/medium/pabda-removebg-preview.png";
+import batashi from "../../../../images/fresh_water_fish/small/batashi-removebg-preview.png";
+import chapila from "../../../../images/fresh_water_fish/small/chapila-removebg-preview.png";
+import puti from "../../../../images/fresh_water_fish/small/puti-removebg-preview.png";
+import cover from "../../../../images/fresh_water_fish/raw-fish-market.jpg";
+
 const Waterfish = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
+  const inlineStyle = {
+    left: "50%",
+    top: "50%",
+    objectFit: "cover",
+    position: "absolute",
+    padding: "20px",
+    transform: "translate(-50% ,-50%)",
+  };
   return (
     <div>
+      <Parallax bgImage={cover} y={[-30, 20]} blur={{ min: -1, max: 4 }}>
+        <div style={{ height: 500 }}>
+          <div style={inlineStyle}>
+            <h1 className='' style={{ color: "#92DC39", fontWeight: "900" }}>
+              Serving quality <span> fresh and frozen Fish </span>
+            </h1>
+            <p className='' style={{ color: "#00D7B5", fontWeight: "600" }}>
+              Euro Foods Group is a leading international manufacturer and
+              distributor of frozen and fresh foods, serving the restaurant,
+              catering and specialist supermarket sectors.
+            </p>
+          </div>
+        </div>
+      </Parallax>
       <div className='container py-3'>
         <div className='bloc-tabs'>
           <button

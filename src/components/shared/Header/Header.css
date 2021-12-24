@@ -3,14 +3,14 @@
 }
 
 .nav-item:hover {
-  border: 1px solid #9fd858;
+  border: 1px solid #9ed858c9;
   background-color: #9fd858;
   color: seagreen;
   border-radius: 10%;
 }
-.nav-item:focus {
-  border: 1px solid #9fd858;
-  background-color: #9fd858;
+.nav-link:focus {
+  border: 1px solid #9aff1f;
+  background-color: #9dfd28;
   color: seagreen;
   border-radius: 10%;
 }

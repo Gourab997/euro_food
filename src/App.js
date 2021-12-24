@@ -11,6 +11,7 @@ import Seafood from "./components/Products/FrozenFish/Seafish/Seafood";
 import Footer from "./components/shared/Footer/Footer";
 import { useEffect, useState } from "react";
 import { PuffLoader } from "react-spinners";
+import About from "./components/About/About";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,9 @@ function App() {
           <Switch>
             <Route exact path='/'>
               <Home></Home>
+            </Route>
+            <Route path='/about'>
+              <About></About>
             </Route>
             <Route path='/frozenfinger'>
               <FrozenFinger></FrozenFinger>

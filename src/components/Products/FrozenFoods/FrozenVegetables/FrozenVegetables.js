@@ -1,25 +1,51 @@
 import React, { useState } from "react";
-import kachurlati from "../../../../images/Frozen_vegetables/frozen_vegetables/kachurlati.png";
-import kakrol from "../../../../images/Frozen_vegetables/frozen_vegetables/kakrol.png";
-import lalshak from "../../../../images/Frozen_vegetables/frozen_vegetables/lalshak.png";
-import nalleshaak from "../../../../images/Frozen_vegetables/frozen_vegetables/nalleshaak.png";
-import okra from "../../../../images/Frozen_vegetables/frozen_vegetables/okra.png";
-import sanjnedata from "../../../../images/Frozen_vegetables/frozen_vegetables/sajnedata.png";
-import blackburry from "../../../../images/Frozen_vegetables/fruits/blackburry.png";
-import chalta from "../../../../images/Frozen_vegetables/fruits/chalta.png";
-import coconut from "../../../../images/Frozen_vegetables/fruits/coconut.png";
-import koromcha from "../../../../images/Frozen_vegetables/fruits/koromcha.png";
-import olive from "../../../../images/Frozen_vegetables/fruits/olive.png";
-import saas from "../../../../images/Frozen_vegetables/fruits/saas.png";
+import { Parallax } from "react-parallax";
+import kachurlati from "../../../../images/Frozen_vegetables/frozen_vegetables/kachurlati-removebg-preview.png";
+import kakrol from "../../../../images/Frozen_vegetables/frozen_vegetables/kakrol-removebg-preview.png";
+import lalshak from "../../../../images/Frozen_vegetables/frozen_vegetables/lalshak-removebg-preview.png";
+import nalleshaak from "../../../../images/Frozen_vegetables/frozen_vegetables/nalleshaak-removebg-preview.png";
+import okra from "../../../../images/Frozen_vegetables/frozen_vegetables/okra-removebg-preview.png";
+import sanjnedata from "../../../../images/Frozen_vegetables/frozen_vegetables/sajnedata-removebg-preview.png";
+import blackburry from "../../../../images/Frozen_vegetables/fruits/blackburry-removebg-preview.png";
+import chalta from "../../../../images/Frozen_vegetables/fruits/chalta-removebg-preview.png";
+import coconut from "../../../../images/Frozen_vegetables/fruits/coconut-removebg-preview.png";
+import koromcha from "../../../../images/Frozen_vegetables/fruits/koromcha-removebg-preview.png";
+import olive from "../../../../images/Frozen_vegetables/fruits/olive-removebg-preview.png";
+import saas from "../../../../images/Frozen_vegetables/fruits/saas-removebg-preview.png";
+import cover from "../../../../images/Frozen_vegetables/fruitveg.jpeg";
+
 const FrozenVegetables = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
+  const inlineStyle = {
+    left: "50%",
+    top: "50%",
+    objectFit: "cover",
+    position: "absolute",
+    padding: "20px",
+    transform: "translate(-50% ,-50%)",
+  };
 
   return (
     <div>
+      <Parallax bgImage={cover} y={[-30, 20]} blur={{ min: -1, max: 5 }}>
+        <div style={{ height: 500 }}>
+          <div style={inlineStyle}>
+            <h1 className='' style={{ color: "#FFE9D0", fontWeight: "900" }}>
+              Serving quality <span> fresh and frozen Vegetables </span>
+            </h1>
+            <p className='text-white'>
+              Euro Foods Group is a leading international manufacturer and
+              distributor of frozen and fresh foods, serving the restaurant,
+              catering and specialist supermarket sectors.
+            </p>
+          </div>
+        </div>
+      </Parallax>
+
       <div className='container py-3'>
         <div className='bloc-tabs'>
           <button
